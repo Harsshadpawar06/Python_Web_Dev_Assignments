@@ -18,3 +18,53 @@ C:\Study\Python_Web_Dev\Assignments>Python A1.py
 Hello Python
 
 C:\Study\Python_Web_Dev\Assignments>
+
+#4. Write a python script to print Hello Python on the screen using visual studio code.
+
+print("Hello Python")
+
+#5. Write a python script to print Hello on the first line and Python on the second line
+print("Hello")
+print("Python")
+
+#or
+
+print("Hello"+"\n"+"Python")
+
+#6. Write a python script to print “MySirG” on the screen
+
+print("MySirG")
+
+#7. Write a python script to print “Teacher’s Day” on the screen
+print("Teacher""’""s Day")
+
+#8. Write a python script to print the value of a variable. Variable contains your name as data.
+Name = "Harshad"
+print(Name)
+
+
+#9. Write a python script to create variables to store your name, age, qualification, years of experience and print it.
+
+name = "Harshad"
+age = 33
+qualification = "Bsc"
+years_Of_Experience=12
+
+print("Name : "+ name )
+print("Age : "+ str(age) )
+print("Qualification : " + qualification ) 
+print("Total Years Of Experience : " + str(years_Of_Experience))
+
+# OR
+print("Name : "+ name + '\n'
+"Age : "+ str(age) + '\n'
+"Qualification : " + qualification + '\n'
+"Total Years Of Experience : " + str(years_Of_Experience))
+
+#10. Write a python script to print values of three variables, each in a new line. Variable contains integer values
+
+x = 18
+y = 6
+z = 1988
+
+print("DD : " + str(x)+"\n"+"M : "+str(y)+"\n"+"YYYY :"+str(z))
