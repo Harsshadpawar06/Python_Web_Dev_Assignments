@@ -1,0 +1,120 @@
+#1. Write a python script to add comments and print “Learning Python” on screen.
+
+#Sample Comment 1
+"""
+    Sample 
+          comment 2
+"""
+print("Learning Python")
+
+#2. Write a python script to add multi line comments and print values of four variables,
+#each in a new line. Variable contains any values.
+
+"""
+    multi 
+          line 
+               comments
+"""
+a="Harshad"
+b="Pawar"
+c=81.5
+d=33
+
+print(a+'\n'+b+'\n'+str(c)+'\n'+str(d))
+
+
+
+
+#3. Write a python script to print types of variables. Create 5 variables each of them
+#containing different types of data. (like 35, True, “MySirG”,5.46, 3+4j, etc)
+
+a=35
+b=True
+c="MySirG"
+d=5.46
+e='3+4j'
+
+print(str(a) + '\n' + str(b) + '\n' + c + '\n' + str(d) + '\n' + str(e))
+
+#4. Write a python script to print the id of two variables containing the same integer values.
+
+x1 = 255
+y1 = 255
+print(id(x1))
+print(id(y1))
+
+#5. Create four variables in a Python script and assign values of different data types to
+#them. Write a Python script to print value, its type and id of each variable
+
+a = "Harshad"
+b = 81
+c = 33.4
+d = 3 + 4j
+
+print("Variable | Value | Type | ID")
+print(a)
+print(type(a))
+print(id(a))
+
+print(str(b))
+print(type(b))
+print(id(b))
+
+#6. Write a python script to print all the keywords
+import keyword
+print(keyword.kwlist)
+
+#7. On Python shell use help() function and display the list of keywords
+>>> help('keywords')
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not
+
+>>>
+
+#8. Create two Python files A0.py and A1.py. Create a variable in A1.py and assign some
+#value to it. Write a python script to import A1 module in A0 and print value of the
+#variable created in A0.py
+
+#A1.py 
+a = "Harshad Pawar"
+
+#A0.py
+from A1 import a as name
+print(name)
+
+#9. Name the keywords, used as data in the Python script.
+False , None , True
+
+#10. Write a python script to display the current date and time. First create variables to
+#store date and time, then display date and time in proper format (like: 13-8-2022 and
+#9:00 PM)
+
+import datetime
+
+e = datetime.datetime.now()
+
+print (e.strftime("%d-%m-%Y"))
+print (e.strftime("%I:%M %p"))
+
+01-10-2022
+04:32 PM
+
+print(str(c))
+print(type(c))
+print(id(c))
+
+print(str(d))
+print(type(d))
+print(id(d))
+
+
