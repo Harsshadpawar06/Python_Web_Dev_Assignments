@@ -1,0 +1,20 @@
+#1. Write a command to get the Python version you are using.
+
+C:\Study\Python_Web_Dev>Python -V
+Python 3.10.7
+
+#2. Write a python script to print Hello Python on the screen directly in the command line.
+
+C:\Study\Python_Web_Dev>Python 
+Python 3.10.7 (tags/v3.10.7:6cc6b13, Sep  5 2022, 14:08:36) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello Python")
+Hello Python
+>>>
+
+#3. Write a python script and store it in a file and execute the file from the command line.
+
+C:\Study\Python_Web_Dev\Assignments>Python A1.py
+Hello Python
+
+C:\Study\Python_Web_Dev\Assignments>
