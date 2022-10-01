@@ -1,0 +1,47 @@
+#1. Write a python script to convert a number into str type.
+x = 11
+x=str(x)
+print(type(x))
+
+#2. Write a python script to print Unicode of the character ‘m’
+
+character = 'm'
+print(ord(character))
+
+#3. Write a python script to print character representation of a given unicode 100.
+
+ucode = 100
+print(chr(ucode))
+
+#4. Write a python script to print any number and its binary equivalent
+
+x = input("Enter a number:")
+print(bin(int(x)))
+
+#5. Write a python script to print any number and its octal equivalent.
+x = input("Enter a number:")
+print(oct(int(x)))
+
+#6. Write a python script to print any number and its hexadecimal equivalent.
+x = input("Enter a number:")
+print(hex(int(x)))
+
+
+
+
+#8. Write a python script to store a hexadecimal number 2F in a variable and print it in
+#octal format.
+
+hnum = input("Enter Hexadecimal Number: ")
+
+onum = int(hnum, 16)
+onum = oct(onum)
+print("\nEquivalent Octal Value = ", onum)
+
+#9. Write a python script to store an octal number 125 in a variable and print it in binary
+#format.
+
+hoct = 125
+
+print(bin(hoct), "in binary.")
+
